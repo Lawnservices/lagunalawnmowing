@@ -1,3 +1,1 @@
-google.com, pub-3200750316029700, DIRECT, f08c47fec0942fa0
-adsense.com, 123456, DIRECT 
-adsense.com, 654321, RESELLER, abcdefghi
+google.com, pub-1220857482303364, DIRECT, f08c47fec0942fa0
