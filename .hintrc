@@ -10,6 +10,7 @@
           "video[controlslist]"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }
