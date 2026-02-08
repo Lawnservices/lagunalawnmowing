@@ -1,3 +1,6 @@
+body{
+background-color: rgb(216, 223, 235);
+}
 main section .gallery h2{
 font-size: 22px;
  
@@ -6,4 +9,10 @@ img{
 width: 100%;
 height: auto;
 }
- 
+
+#guarda{
+min-height: 50px;
+color: black;
+text-align: center;
+font-size: 20px;
+}
