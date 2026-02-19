@@ -23,3 +23,5 @@ if (!visitas) {
   visitado.textContent = "Thanks for coming back 🌱";
   visitado.style.color = 'blue';
 }
+
+ 
