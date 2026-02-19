@@ -11,16 +11,19 @@
 </head>
 <body>
     <header>
-        <h1>Miguel Lawn Servives</h1>
         <nav>
-            <a href="#home">Home</a>
-            <a href="/components/photos">Photos</a>
-             <a href="https://www.youtube.com/channel/UC8Q51GWY9f5YsIQyLwNMfbw" target="_blank"  onclick="event.preventDefault();
+            <div class="logo">Miguel Lawn Servives</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="/components/photos">Photos</a></li>
+                <li> <a href="https://www.youtube.com/channel/UC8Q51GWY9f5YsIQyLwNMfbw" target="_blank"  onclick="event.preventDefault();
             if (confirm('Do you want to subscribe to my YouTube channel?')) {
                 window.open(this.href, '_blank');
-            }" class="boton">Subscribe</a>
-            <a href="/components/youtube">YouTube</a>
-            <a href="tel:12408838479" class="contact">Contact</a>
+            }" class="boton">Subscribe</a></li>
+                <li><a href="/components/youtube">YouTube</a></li>
+                <li><a href="tel:12408838479" class="contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">☰</div>
         </nav>
     </header>
     <main>
@@ -76,5 +79,6 @@
         <p id="footer"></p>
     </footer>
     <script src="script/script.js"></script>
+    <script src="hamburger.js"></script>
 </body>
 </html>
